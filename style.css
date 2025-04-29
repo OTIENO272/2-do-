@@ -1,0 +1,98 @@
+.list{
+	display: flex;
+	
+	color: rgb(196, 171, 171);
+	flex-direction: column;
+	list-style: circle;
+	font-size: 3rem;
+	padding: 10px;
+
+}
+*{
+	background-color: rgb(89, 71, 49);
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 1.5rem;
+	align-self: center;
+	font-weight: bold;
+	font-style: italic;
+	scrollbar-shadow-color: azure;
+	transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+	text-align: center;
+}
+
+.list li {
+	padding: 20px;
+}
+#add-btn{
+	background-color: rgb(15, 180, 53);
+	color: black;
+	font-size: 2rem;
+	font-weight: bold;
+	font-style: italic;
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 20px;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+#add-btn:hover{
+	background-color: rgb(15, 180, 53);
+	color: black;
+	font-size: 2rem;
+	font-weight: bold;
+	font-style: italic;
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 20px;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+#add-btn:active{
+	background-color: rgb(15, 180, 53);
+	color: black;
+	font-size: 2rem;
+	font-weight: bold;
+	font-style: italic;
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 20px;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+#clear-btn{
+	background-color: rgb(180, 15, 15);
+	color: black;
+	font-size: 2rem;
+	font-weight: bold;
+	font-style: italic;
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 20px;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+#items-list{
+	color: rgb(196, 171, 171);
+	font-size: 3rem;
+	font-weight: bold;
+	font-style: italic;
+	border-radius: 10px;
+	padding: 10px;
+	list-style-type: disc;
+
+
+	
+}
+#add-input{
+	background-color: rgb(89, 71, 49);
+	color: rgb(196, 171, 171);
+	font-size: 3rem;
+	font-weight: bold;
+	font-style: italic;
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 20px;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
